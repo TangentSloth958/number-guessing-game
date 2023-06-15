@@ -1,0 +1,39 @@
+body{
+    background-color: dodgerblue;
+}
+
+.container{
+    border: 10px solid black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50vw;
+    user-select: none;
+    margin: 0 auto;
+}
+
+.container>div{
+    background-color: grey;
+    margin: 1em;
+    text-align: center;
+    padding: 20px;
+    border: 10px outset #000;
+}
+
+.container>div:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.container>div:active{
+    border: 10px inset #000;
+    background-color: #f90;
+}
+
+.dashboard{
+    margin: 0 auto;
+    width: 50vw;
+}
+
+#userInput{
+    width: 100%;
+}
